@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-runtime
+FROM nvidia/cuda:7.5-runtime
 
 RUN apt-get update
 RUN apt-get install apt-transport-https -y
